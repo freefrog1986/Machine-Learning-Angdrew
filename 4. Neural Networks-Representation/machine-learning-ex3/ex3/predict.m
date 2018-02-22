@@ -29,7 +29,7 @@ a2 = [ones(size(z2,1),1) sigmoid(z2)];
 z3 = a2 * Theta2';
 a3 = sigmoid(z3);
 
-[val,p] = max(a3,[],2)
+[val,p] = max(a3,[],2);
 
 
 
